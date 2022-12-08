@@ -1,17 +1,4 @@
-//make a function that select rrandomly between rock papper sicor
-// random slelct numner between 0<x<15
-// si cette valeur et entre 05 rock
-//else if entre 5et 1o scissors
-//sinn paper
-//en stock cette valeur dans une variable
-//en demande a l'utilisateur de afire un choix emtre rock papper scissors
-//regle
-//on la stock dans une variable
-// en compare les choix
-//en creee une variable score
-// si usr gaagne en ajoute nun point
-//si pc gagne en donne un point au pc
-//{s>p , p>r , r>s }
+
 const choices = ["rock", "papper", "scissors"];
 function getComputerChoice() {
   const cpchoice = choices[Math.floor(Math.random() * choices.length)];
